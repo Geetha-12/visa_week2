@@ -1,4 +1,4 @@
-package com.visa.prj.client;
+package com.visa.prj.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
