@@ -32,8 +32,8 @@ public class OrderClient {
 		
 		Item i2 = new Item();
 		i2.setProduct(p2);
-		i1.setQty(3);
-		i1.setAmount(p2.getPrice() * i2.getQty());
+		i2.setQty(3);
+		i2.setAmount(p2.getPrice() * i2.getQty());
 		
 		o.getItems().add(i1);
 		o.getItems().add(i2);
